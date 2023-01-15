@@ -1,5 +1,5 @@
+// CSS Custom Properties
 :root {
-  // CSS Custom Properties
   --color-primary: #eb2f64;
   --color-primary-light: #ff3366;
   --color-primary-dark: #ba265d;
@@ -26,9 +26,11 @@
 $bp-largest: 75em; // 1200px
 $bp-large: 68.75em; // 1100px
 $bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
 
+// Global Reset
 * {
-  // Global reset
   margin: 0;
   padding: 0;
 }
@@ -40,7 +42,7 @@ $bp-medium: 56.25em; // 900px
 }
 
 html {
-  // Alternative box-model
+  // Alternative Box-model
   box-sizing: border-box;
 
   // Define that 1rem is 10px
